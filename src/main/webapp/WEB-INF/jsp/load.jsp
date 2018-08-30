@@ -7,7 +7,7 @@
 <body>
 	<font color="red">${errorMessage}</font>
 	<form method="post">
-		<p>Want to Load Data. Click submit</p>
+		<p>Want to Check Pollution Level Data. Click submit</p>
 		<input type="submit" />
 	</form>
 </body>
