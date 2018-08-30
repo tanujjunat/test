@@ -62,7 +62,11 @@
     		<artifactId>jackson-databind</artifactId>
     		<version>2.9.5</version>
 		</dependency>
-		
+		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+   			<artifactId>spring-boot-starter-tomcat</artifactId>
+   			<scope>provided</scope>
+		</dependency>
 		
 	</dependencies>
 
@@ -72,7 +76,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<artifactId>maven-war-plugin</artifactId>
 				<version>2.4</version>
 				<configuration>
@@ -80,12 +84,12 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<webResources>
             			<resource>
-             				 <!-- this is relative to the pom.xml directory -->
+             				 this is relative to the pom.xml directory
              				 <directory>src\main\webapp</directory>
             			</resource>
           			</webResources>
 				</configuration>
-			</plugin>
+			</plugin> -->
 		</plugins>
 	</build>
 
