@@ -26,6 +26,7 @@ public class LoadController {
 		 
 		
 		model.put("C6H6_level", pollutionLevel.getC6H6());
+		/* Hello */
 		model.put("CO2_level", pollutionLevel.getCO2());
 		model.put("CO_level", pollutionLevel.getCO_gas());
 		model.put("NH4_level", pollutionLevel.getNH4());
