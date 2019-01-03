@@ -1,11 +1,11 @@
-package com.sapient.loadservice.service.impl;
+package com.sapient.newsservice.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sapient.loadservice.model.VehiclePollutionData;
-import com.sapient.loadservice.service.LoadService;
-import com.sapient.loadservice.util.LoadServiceUtil;
+import com.sapient.newsservice.model.VehiclePollutionData;
+import com.sapient.newsservice.service.LoadService;
+import com.sapient.newsservice.util.LoadServiceUtil;
 
 @Service
 public class LoadServiceImpl implements LoadService{

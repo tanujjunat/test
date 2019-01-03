@@ -1,4 +1,4 @@
-package com.sapient.loadservice.model;
+package com.sapient.newsservice.model;
 
 import java.io.Serializable;
 

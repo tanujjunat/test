@@ -1,4 +1,4 @@
-package com.sapient.loadservice.controller;
+package com.sapient.newsservice.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.sapient.loadservice.model.VehiclePollutionData;
-import com.sapient.loadservice.service.impl.LoadServiceImpl;
+import com.sapient.newsservice.model.VehiclePollutionData;
+import com.sapient.newsservice.service.impl.LoadServiceImpl;
 
 @Controller
 public class LoadController {

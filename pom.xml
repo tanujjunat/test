@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.sapient</groupId>
-	<artifactId>load-service</artifactId>
+	<artifactId>news-service</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
 
@@ -67,6 +67,13 @@
    			<artifactId>spring-boot-starter-tomcat</artifactId>
    			<scope>provided</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+		<dependency>
+    		<groupId>javax.servlet</groupId>
+    		<artifactId>jstl</artifactId>
+    		<version>1.2</version>
+		</dependency>
+		
 		
 	</dependencies>
 

@@ -1,4 +1,4 @@
-package com.sapient.loadservice.util;
+package com.sapient.newsservice.util;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
-import com.sapient.loadservice.model.VehiclePollutionData;
+import com.sapient.newsservice.model.VehiclePollutionData;
 
 @Component
 public class LoadServiceUtil {
